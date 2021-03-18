@@ -1,0 +1,61 @@
+.Container {
+  width: 100%;
+  background-color: #0000006e;
+  overflow: scroll;
+  margin-bottom: 14px;
+}
+
+.Burger {
+  width: 100%;
+  margin: 10px auto;
+  height: 250px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0000006e;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #c7310c;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #a32505bd;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: #0000003d;
+}
+
+@media (min-width: 500px) and (min-height: 400px) {
+  .Burger {
+    width: 350px;
+    height: 300px;
+  }
+}
+
+@media (min-width: 500px) and (min-height: 401px) {
+  .Burger {
+    width: 450px;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1000px) and (min-height: 700px) {
+  .Burger {
+    width: 700px;
+    height: 600px;
+  }
+}
