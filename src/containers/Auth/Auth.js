@@ -15,7 +15,7 @@ const auth = props => {
       elementType: 'input',
       elementConfig: {
         type: 'email',
-        placeholder: 'Mail Address'
+        placeholder: 'Email Address'
       },
       value: '',
       validation: {
@@ -118,7 +118,7 @@ const auth = props => {
         <Button btnType="Success">SUBMIT</Button>
       </form>
       <Button clicked={switchAuthModeHandler} btnType="Danger">
-        SWITCH TO {isSignup ? 'SIGNIN' : 'SIGNUP'}
+        SWITCH TO {isSignup ? 'SIGN IN' : 'SIGN UP'}
       </Button>
     </div>
   );
