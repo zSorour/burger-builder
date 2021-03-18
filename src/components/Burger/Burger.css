@@ -3,6 +3,7 @@
   background-color: #0000006e;
   overflow: scroll;
   margin-bottom: 14px;
+  box-sizing: border-box;
 }
 
 .Burger {
@@ -53,9 +54,3 @@
   }
 }
 
-@media (min-width: 1000px) and (min-height: 700px) {
-  .Burger {
-    width: 700px;
-    height: 600px;
-  }
-}
